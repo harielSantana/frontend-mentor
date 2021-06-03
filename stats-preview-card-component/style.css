@@ -76,7 +76,8 @@ p {
 }
 
 .image {
-  background: url(images/image-header-desktop.jpg);
+  background: url(images/image-header-desktop.jpg) no-repeat center;
+  background-size: cover;
   width: 100%;
   height: 100%;
 }
